@@ -1,6 +1,6 @@
 // AboutUs.jsx
 import React from 'react';
-import '@/styles.css'; // Import the CSS file for styling
+import './styles.css'; // Import the CSS file for styling
 
 const AboutUs = () => {
   return (
