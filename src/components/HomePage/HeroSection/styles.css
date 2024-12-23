@@ -1,5 +1,20 @@
-/* In your styles.css */
-.shadow-blur {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
+/* CSS animation for rotating circle */
+.rotating-circle {
+  animation: rotateText 10s linear infinite; /* Adjust speed here (10s is the duration) */
+}
+
+/* Keyframes to rotate the entire circle */
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg); /* Start position */
   }
+  100% {
+    transform: rotate(360deg); /* End position */
+  }
+}
+.dm-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+
 
