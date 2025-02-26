@@ -1,0 +1,92 @@
+.container {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .ban {
+    font-family: "Bangers", system-ui;
+    font-weight: 100;
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    position: relative;
+  
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width:390px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-container {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .title {
+    font-size: 30px;
+    color: #DF0907;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 20px;
+  }
+  
+  .details-button {
+    background-color:#DF0907;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  .view-more {
+    margin-top: 30px;
+    background-color: #DF0907;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left:60px;
+    transition: all 0.3s ease;
+  }
+  
+  .view-more:hover {
+    background-color: #DF0907;
+  }
+  body{
+    background-color: black;
+  }
